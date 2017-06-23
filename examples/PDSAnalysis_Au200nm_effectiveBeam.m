@@ -10,7 +10,7 @@ Data_f(2).freq = 20 ;
 Data_f(3).freq = 30 ;
 
 for ii=1:3
-Data_f(ii).raw = importdata(Data_f(ii).Filename,'\t',22) ;    
+Data_f(ii).raw = importdata(Data_f(ii).Filename,'\t',1) ;    
 end
 
 DataRange = 1:length(Data_f(1).raw.data(:,2)) ;
