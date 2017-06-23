@@ -6,10 +6,14 @@ Matlab library for the simulation of certian kinds of photothermal deflection me
 Matlab 2017a, 64-bit, full install
 NVIDIA GPU
 
-# Documentation (todo)
+# Documentation
+
+Currently most method and property explanations are included in the class definition under ./src/
 
 # PDSExpr
 
 An example of how to use this class is given under ./examples/
+
+
 
 
