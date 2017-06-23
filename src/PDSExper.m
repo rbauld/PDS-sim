@@ -1,4 +1,4 @@
-classdef PDSExper3 < handle
+classdef PDSExper < handle
     properties % Region 0
         % Region 0 properties, default values are for FC-72
         % Thermal conductivity
@@ -143,9 +143,9 @@ classdef PDSExper3 < handle
             % 
             % More information can be found in this paper,
             % 
-            % M. Reichling and H. Grönbeck, “Harmonic heat flow in isotropic layered 
-            % systems and its use for thin film thermal conductivity measurements,” 
-            % Journal of Applied Physics, vol. 75, no. 4, pp. 1914–1922, Feb. 1994.
+            % M. Reichling and H. GrÃ¶nbeck, â€œHarmonic heat flow in isotropic layered 
+            % systems and its use for thin film thermal conductivity measurements,â€ 
+            % Journal of Applied Physics, vol. 75, no. 4, pp. 1914â€“1922, Feb. 1994.
 
             % Region 0, Fluid
 
@@ -353,9 +353,9 @@ classdef PDSExper3 < handle
             % 
             % More information can be found in this paper,
             % 
-            % M. Reichling and H. Grönbeck, “Harmonic heat flow in isotropic layered 
-            % systems and its use for thin film thermal conductivity measurements,” 
-            % Journal of Applied Physics, vol. 75, no. 4, pp. 1914–1922, Feb. 1994.
+            % M. Reichling and H. GrÃ¶nbeck, â€œHarmonic heat flow in isotropic layered 
+            % systems and its use for thin film thermal conductivity measurements,â€ 
+            % Journal of Applied Physics, vol. 75, no. 4, pp. 1914â€“1922, Feb. 1994.
 
             % Region 0, Fluid
 
