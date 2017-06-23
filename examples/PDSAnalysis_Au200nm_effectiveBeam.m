@@ -1,6 +1,5 @@
-%% Load frontside data
+%% Load data
 
-clear
 Data_f(1).Filename = '.\10.00Hz.txt' ;
 Data_f(2).Filename = '.\20.00Hz.txt' ;
 Data_f(3).Filename = '.\30.00Hz.txt' ;
@@ -36,7 +35,7 @@ for ii=1:3
     Data_f(ii).data(:,6)=angle(Data_f(ii).data(:,4)) ;
 end
 
-PDS_sim = PDSExper3()
+PDS_sim = PDSExper()
 
 %% Set experimental parameters
 
