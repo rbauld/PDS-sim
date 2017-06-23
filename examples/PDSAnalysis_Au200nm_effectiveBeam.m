@@ -1,9 +1,9 @@
 %% Load frontside data
 
 clear
-Data_f(1).Filename = 'C:\Data\Reg\PDS\2016_06_30_Au200\10.00Hz.txt' ;
-Data_f(2).Filename = 'C:\Data\Reg\PDS\2016_06_30_Au200\20.00Hz.txt' ;
-Data_f(3).Filename = 'C:\Data\Reg\PDS\2016_06_30_Au200\30.00Hz.txt' ;
+Data_f(1).Filename = '.\10.00Hz.txt' ;
+Data_f(2).Filename = '.\20.00Hz.txt' ;
+Data_f(3).Filename = '.\30.00Hz.txt' ;
 
 Data_f(1).freq = 10 ;
 Data_f(2).freq = 20 ;
