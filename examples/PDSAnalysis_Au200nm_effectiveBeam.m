@@ -151,26 +151,6 @@ toc
 
 h = msgbox('Operation Completed','Success');
 
-%% Refine fit
-
-my_scale = [1 1e3, 1e5, 1e2, 1e9] ;
-params_in = params.*my_scale ; 
-
-
-my_fun = @(x) PDS_sim.logResid_calc(Data_f, x./my_scale,2e-4) ;
-
-A = [];
-b = [];
-Aeq = [];
-beq = [];
-
-lb = [0,0 ,-Inf ,0 ,0] ;
-ub = [Inf, Inf ,0 ,Inf ,Inf] ;
-
-options = optimoptions('fmincon','Display','iter');
-
-my_fit = fmincon(my_fun,params_in,A,b,Aeq,beq,lb,ub,[],options)
-
 %% Load params and make test plot
 
 %params = my_fit./my_scale ;
