@@ -9,6 +9,7 @@ NVIDIA GPU
 # Documentation
 
 Currently most method and property explanations are included in the class definition under ./src/
+Additional definitions are avilable in the examples.
 
 # PDSExpr
 
