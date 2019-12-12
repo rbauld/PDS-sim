@@ -1,5 +1,15 @@
 # PDS-sim
-Matlab library for the simulation of certian kinds of photothermal deflection measurements
+Matlab library for the simulation of certain kinds of photothermal deflection measurements
+
+A sketch of the experimental setup is shown below:  
+![Image of Experiment](https://github.com/rbauld/PDS-sim/blob/master/images/setup.PNG)
+
+Additional details of the theory/experiment this software is based on can be found at: Journal of Applied Physics 75, 1914 (1994);
+
+Ultimately this software produced some very good fitting results, with excellent agreement on reference gold thin films.  
+Some example fits produced and the extracted thermal properties are shown below:  
+![Example fit on Gold reference sample](https://github.com/rbauld/PDS-sim/blob/master/images/fit.PNG)
+
 
 # Requirements
 
@@ -9,7 +19,7 @@ NVIDIA GPU
 # Documentation
 
 Currently most method and property explanations are included in the class definition under ./src/
-Additional definitions are avilable in the examples.
+Additional definitions are available in the examples.
 
 # PDSExpr
 
